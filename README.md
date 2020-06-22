@@ -72,12 +72,59 @@ We also retain our unemployment_rate variable from before.
 
 # Analysis:
 
-Segmenting the population by race showed immediate promise
+### **Segmenting by Race:**
 
-By plotting the suicide rate for each population alongside the average for the whole, you can see that they are not uniform.
+By plotting the suicide rate for each population alongside the average for the whole, you can see that they are not uniform, and the results look promising.
 
 <p align='center'>
 <img src='images/suicide_rate_by_race.png'>
 </p>
 
-To make sure these results are not from chance, we run an ANOVA test
+Before we get too excited though, we need to test for statistical significance.
+
+After running T tests with each population we find that only the Asian subcategory is statistically significant.
+
+### **Unemployment Rate:**
+
+The correlation between unemployment rate and suicide rate is 0.146. We can see from a scatter plot that this is not very strong, however, it is statistically significant and thus can explain some of the relationship
+
+<p align='center'>
+<img src='images/unemployment_vs_suicide_rate.png'>
+</p>
+
+### **Sex:**
+
+Areas with a higher proportion of females in the population appear to have lower suicide rates, however, by conducting a T test we fail to reject the null hypothesis that the averages are, in fact, the same. Thus, we can not rely on this for our model.
+
+### **Age:**
+
+### Older Populations:
+
+From the percent of the population over the age of 65 we created the category of above average elderly population (sorry if you're older than 65 and take offense to being called elderly).
+
+On average, counties with higher than average elderly populations had just over 20% more more suicides than those with below average proportions of elderly populations.
+
+From a T test we can also see that this difference is statistically significant
+
+### Younger Populations:
+
+From the percent of population younger than 18 we created the category of above average child population. There was almost no difference between this segment and it's compliment though, nor was the small difference statistically significant.
+
+### **Rural Populations:**
+
+Looking at suicide rates for above average rural populations vs below average gives us one of our most striking differences = the suicide rate for above average rural populations is almost 30% that of its compliment. As well, this observation was statistically significant.
+
+# Conclusion:
+
+From this analysis we found 4 factors that can influence the rate of suicide in a county:
+
+<ul>
+<li>Rural population</li>
+<li>Elderly population</li>
+<li>Unemployment rate</li>
+<li>Asian population</li>
+</ul>
+
+We can utilize this information to minimize the rates of suicides by providing extended support to people in rural settings, reaching out to elderly populations with support materials, and paying attention when people become unemployed.
+
+As well, while we can't give every county a higher than average proportion of Asian population, we can learn from Asian communities and explore further why they have lower suicide rates.
