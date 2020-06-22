@@ -51,9 +51,9 @@ With the right target variable I experimented again, looking at correlation matr
 
 The data was overwhelming, the dictionary was useless, and the descriptions were very hard to find. Thus in an effort to be accurate without misinterpreting the data that was collected, I focused my attention on measuring more broad differences, creating categorical variables to show where characteristics were exceptional.
 
-This resulted in engineering the varaibles:
+This resulted in engineering varaibles to segment the observations by race, including:
 
-<ul><li>above_average_rural_population</li>
+<ul>
 <li>above_average_female_population</li>
 <li>above_average_white_population</li>
 <li>above_average_black_population</li>
@@ -61,5 +61,12 @@ This resulted in engineering the varaibles:
 <li>above_average_asian_population</li>
 <li>above_average_native_population</li>
 <li>above_average_native_HI_population</li>
+</ul>
+As well as other characteristics including:
+<ul>
+<li>above_average_rural_population</li>
 <li>above_average_elderly_population</li>
-<li>above_average_child_population</li></ul>
+<li>above_average_child_population</li
+></ul>
+
+Segmenting the population by race showed immediate promise
