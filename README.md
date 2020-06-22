@@ -70,6 +70,8 @@ As well as other characteristics including:
 ></ul>
 We also retain our unemployment_rate variable from before.
 
+# Analysis:
+
 Segmenting the population by race showed immediate promise
 
 By plotting the suicide rate for each population alongside the average for the whole, you can see that they are not uniform.
@@ -77,3 +79,5 @@ By plotting the suicide rate for each population alongside the average for the w
 <p align='center'>
 <img src='images/suicide_rate_by_race.png'>
 </p>
+
+To make sure these results are not from chance, we run an ANOVA test
